@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Hero Skin Tracker</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         table {
             border-collapse: collapse;
@@ -31,27 +32,55 @@
 
 <body>
     <h2>新增造型</h2>
-    <form id="skinForm">
-        <input autocomplete="off" type="text" id="heroInput" placeholder="英雄" required />
-        <input autocomplete="off" type="text" id="skinInput" placeholder="造型" required />
-        <label>
-            <input type="checkbox" id="ownedInput" />
-        </label>
-        <button type="submit">新增</button>
+    <!-- From Uiverse.io by ammarsaa -->
+    <form class="form" id="skinForm">
+
+        <div class="flex">
+            <label>
+                <input class="input" type="text" placeholder="" required autocomplete="off" id="heroInput" />
+                <span>英雄</span>
+            </label>
+
+            <label>
+                <input class="input" type="text" placeholder="" required autocomplete="off" id="skinInput" />
+                <span>造型</span>
+            </label>
+
+            <label class="container">
+                <input checked="checked" type="checkbox" id="ownedInput" />
+                <div class="checkmark"></div>
+            </label>
+        </div>
+
+        <button class="submit">新增</button>
+
     </form>
 
-    <h3>選擇英雄</h3>
-    <select id="heroSelect" onchange="loadSkins()">
-        <option value="">-- Select --</option>
-    </select>
 
-    <select id="filterSelect" onchange="loadSkins()">
-        <option value="all">全部</option>
-        <option value="owned">已擁有</option>
-        <option value="not_owned">未擁有</option>
-    </select>
+    <h2>選擇英雄</h2>
+    <form class="form">
+        <div class="flex">
 
-    <h3>造型</h3>
+            <select id="heroSelect" onchange="loadSkins()">
+                <span>
+                    <option value=""></option>
+                </span>
+            </select>
+
+            <select id="filterSelect" onchange="loadSkins()">
+                <span>
+                    <option></option>
+                    <option value="all">全部</option>
+                    <option value="owned">已擁有</option>
+                    <option value="not_owned">未擁有</option>
+                </span>
+            </select>
+
+        </div>
+
+    </form>
+
+    <h2>造型</h2>
     <div id="skinOutput"></div>
 
     <script>
@@ -94,6 +123,7 @@
 
         async function loadSkins() {
             const hero = document.getElementById("heroSelect").value;
+            let hasHero = !(hero == "");
             const filter = document.getElementById("filterSelect").value;
             const res = await fetch("/data");
             let data = await res.json();
@@ -122,7 +152,7 @@
           <tbody>
             ${filtered.map(skin => `
               <tr>
-                <td>${skin.skin}</td>
+                <td>${hasHero ? "" : skin.hero} ${skin.skin}</td>
                 <td>${skin.owned ? "✅ 已擁有" : "❌ 未擁有"}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${skin.owned ? "" : `<button onclick="toggleOwned(${skin.id})">獲得</button>`}</td>
               </tr>
             `).join('')}

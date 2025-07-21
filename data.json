@@ -308,5 +308,410 @@
     "hero": "亥犽",
     "skin": "繁星計劃：瞬影",
     "owned": true
+  },
+  {
+    "hero": "青硯",
+    "skin": "塗裝高手",
+    "owned": true
+  },
+  {
+    "hero": "青硯",
+    "skin": "竈門炭治郎",
+    "owned": true
+  },
+  {
+    "hero": "青硯",
+    "skin": "慶典進行曲",
+    "owned": false
+  },
+  {
+    "hero": "青硯",
+    "skin": "甜夢時光",
+    "owned": false
+  },
+  {
+    "hero": "青硯",
+    "skin": "蛇乎奇境・鶴立",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "闇夜獵影",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "血煞破陣箭",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "防暴督察官",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "墨箭竹影",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "騰龍萬象",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "冰紛派對",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "學院菁英",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "星雲守護",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "綠蔭之弓",
+    "owned": false
+  },
+  {
+    "hero": "勇",
+    "skin": "派對玩咖",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "無盡星芒",
+    "owned": true
+  },
+  {
+    "hero": "勇",
+    "skin": "魔女回憶錄・言之靈",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "飛天大盜",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "煉獄修羅",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "合金進化",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "暴走街霸",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "合金進化・涅槃",
+    "owned": false
+  },
+  {
+    "hero": "悟空",
+    "skin": "冰寒遠征",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "超神快送",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "混咒妖王",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "亞圖姆之跡",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "須彌瑞靈",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "零號・赤焰",
+    "owned": true
+  },
+  {
+    "hero": "悟空",
+    "skin": "伏魔金箍",
+    "owned": false
+  },
+  {
+    "hero": "菫",
+    "skin": "紅蓮槍魂",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "未來戰警",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "王牌飛行員",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "奇喵之旅",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "泳裝派對",
+    "owned": false
+  },
+  {
+    "hero": "菫",
+    "skin": "爛熳時光",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "次元突破",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "紅蓮槍魂・無雙",
+    "owned": false
+  },
+  {
+    "hero": "菫",
+    "skin": "異星覺醒",
+    "owned": false
+  },
+  {
+    "hero": "菫",
+    "skin": "花嫁物語",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "俠影神槍",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "飛翔夢之隊",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "命運之淵",
+    "owned": false
+  },
+  {
+    "hero": "菫",
+    "skin": "達爾文防線",
+    "owned": false
+  },
+  {
+    "hero": "菫",
+    "skin": "異界靈契",
+    "owned": true
+  },
+  {
+    "hero": "菫",
+    "skin": "滿月派對",
+    "owned": false
+  },
+  {
+    "hero": "菫",
+    "skin": "龍佑千載・耀星河",
+    "owned": false
+  },
+  {
+    "hero": "菫",
+    "skin": "釘崎野薔薇",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "諜影暗刃",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "皇庭魅影",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "賽車女郎",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "血煞修羅斬",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "櫻吹雪",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "櫻吹雪・煌月",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "劍道社長",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "泳裝派對",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "銀翼俠侶",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "魔女契約",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "神兵・文鰩",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "慶典榮裝",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "遊曳暹羅",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "次元突破",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "美味忍術",
+    "owned": true
+  },
+  {
+    "hero": "愛里",
+    "skin": "魔女回憶錄・憶之紉",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "賞金獵手",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "傳說高校",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "星海之霸",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "合金進化・降臨",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "盤帶大師",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "靈犬行動",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "異星覺醒",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "合金進化・天啟",
+    "owned": false
+  },
+  {
+    "hero": "莫拉",
+    "skin": "靈煌劍",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "醫戰情緣",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "朽木白哉",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "我妻善逸",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "沙丘刺客",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "沙海歸途",
+    "owned": true
+  },
+  {
+    "hero": "莫拉",
+    "skin": "鐵血頑徒",
+    "owned": false
+  },
+  {
+    "hero": "莫拉",
+    "skin": "鳴劍・曳影",
+    "owned": false
+  },
+  {
+    "hero": "莫拉",
+    "skin": "脫逃玩偶",
+    "owned": false
+  },
+  {
+    "hero": "莫拉",
+    "skin": "碎月劍心",
+    "owned": true
   }
 ]

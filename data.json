@@ -1,0 +1,312 @@
+[
+  {
+    "hero": "比洛爾",
+    "skin": "神助千願・赤照天",
+    "owned": true
+  },
+  {
+    "hero": "亞連",
+    "skin": "黑色劍士桐人",
+    "owned": true
+  },
+  {
+    "hero": "亞連",
+    "skin": "桐人",
+    "owned": true
+  },
+  {
+    "hero": "亞連",
+    "skin": "雪落白狼",
+    "owned": false
+  },
+  {
+    "hero": "亞連",
+    "skin": "曙光神子",
+    "owned": true
+  },
+  {
+    "hero": "亞連",
+    "skin": "開拓者",
+    "owned": true
+  },
+  {
+    "hero": "亞連",
+    "skin": "動物派對",
+    "owned": true
+  },
+  {
+    "hero": "亞連",
+    "skin": "危情狂想",
+    "owned": false
+  },
+  {
+    "hero": "亞連",
+    "skin": "財源滾滾：舞獅",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "奪命手術",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "剛殼行動",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "帝國武士",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "血煞玄冥刃",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "校園偶像",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "魔能契約",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "荊刺之王",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "影龍天霄",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "傳奇門將",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "嘻哈狂潮",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "紅葉物語・楓刃",
+    "owned": true
+  },
+  {
+    "hero": "奎倫",
+    "skin": "泳裝派對",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "腥紅之刃",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "高校超殺女",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "躍動青春",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "疾光",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "星際武士",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "霜似刃",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "神劍：凰來",
+    "owned": false
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "錦衣衛：玄雁",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "閃光的亞絲娜",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "史提西亞・亞絲娜",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "動物派對",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "深海傳說",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "啟示之音",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "危情狂想",
+    "owned": true
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "搖滾狂飆",
+    "owned": false
+  },
+  {
+    "hero": "刀鋒寶貝",
+    "skin": "末世龍焰",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "熔岩之心",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "煉獄魔將",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "酷跑街頭",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "戰神之賜",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "天啟神兵",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "玄冥雷澤",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "泳裝派對",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "次元突破",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "奇犽",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "弒槍獵影",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "搖滾狂飆",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "群星魔術團",
+    "owned": true
+  },
+  {
+    "hero": "納克羅斯",
+    "skin": "合金進化・覺醒",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "不滅戰魂",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "朔月銀衛",
+    "owned": false
+  },
+  {
+    "hero": "亥犽",
+    "skin": "銀翼俠侶",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "滅世紅魘",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "鬼眼狂鏢",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "八咫金楓",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "夏戀花火",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "白青魄",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "式鬼",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "造生萬象",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "量子禪心",
+    "owned": true
+  },
+  {
+    "hero": "亥犽",
+    "skin": "繁星計劃：瞬影",
+    "owned": true
+  }
+]

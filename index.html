@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hero Skin Tracker</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        button {
+            padding: 4px 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>新增造型</h2>
+    <form id="skinForm">
+        <input autocomplete="off" type="text" id="heroInput" placeholder="英雄" required />
+        <input autocomplete="off" type="text" id="skinInput" placeholder="造型" required />
+        <label>
+            <input type="checkbox" id="ownedInput" />
+        </label>
+        <button type="submit">新增</button>
+    </form>
+
+    <h3>選擇英雄</h3>
+    <select id="heroSelect" onchange="loadSkins()">
+        <option value="">-- Select --</option>
+    </select>
+
+    <select id="filterSelect" onchange="loadSkins()">
+        <option value="all">全部</option>
+        <option value="owned">已擁有</option>
+        <option value="not_owned">未擁有</option>
+    </select>
+
+    <h3>造型</h3>
+    <div id="skinOutput"></div>
+
+    <script>
+        async function submitSkin(event) {
+            event.preventDefault();
+
+            const hero = document.getElementById("heroInput").value.trim();
+            const skin = document.getElementById("skinInput").value.trim();
+            const owned = document.getElementById("ownedInput").checked;
+
+            if (!hero || !skin) return;
+
+            await fetch("/submit", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ hero, skin, owned })
+            });
+
+            document.getElementById("heroInput").value = "";
+            document.getElementById("skinInput").value = "";
+            document.getElementById("ownedInput").checked = false;
+
+            await refreshHeroList();
+        }
+
+        async function refreshHeroList() {
+            const res = await fetch("/data");
+            const data = await res.json();
+            const heroes = [...new Set(data.map(item => item.hero))];
+
+            const select = document.getElementById("heroSelect");
+            select.innerHTML = `<option value=""></option>`;
+            heroes.forEach(hero => {
+                const option = document.createElement("option");
+                option.value = hero;
+                option.textContent = hero;
+                select.appendChild(option);
+            });
+        }
+
+        async function loadSkins() {
+            const hero = document.getElementById("heroSelect").value;
+            const filter = document.getElementById("filterSelect").value;
+            const res = await fetch("/data");
+            let data = await res.json();
+            data = data.map((d, i) => ({ ...d, id: i }));
+
+            const filtered = data.filter(item => {
+                if (hero && item.hero !== hero) return false;
+                if (filter === "owned" && !item.owned) return false;
+                if (filter === "not_owned" && item.owned) return false;
+                return true;
+            });
+
+            const output = document.getElementById("skinOutput");
+
+            if (filtered.length === 0) {
+                output.innerHTML = "<p></p>";
+                return;
+            }
+
+            output.innerHTML = `
+        <table>
+          <thead>
+            <tr>
+            </tr>
+          </thead>
+          <tbody>
+            ${filtered.map(skin => `
+              <tr>
+                <td>${skin.skin}</td>
+                <td>${skin.owned ? "✅ 已擁有" : "❌ 未擁有"}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${skin.owned ? "" : `<button onclick="toggleOwned(${skin.id})">獲得</button>`}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+        }
+
+        async function toggleOwned(id) {
+            const res = await fetch("/data");
+            const data = await res.json();
+            const entry = data[id];
+            if (!entry) return alert("Invalid ID");
+
+            await fetch(`/edit/${id}`, {
+                method: "PUT",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ owned: !entry.owned })
+            });
+
+            loadSkins();
+        }
+
+        document.getElementById("skinForm").addEventListener("submit", submitSkin);
+        refreshHeroList();
+    </script>
+</body>
+
+</html>

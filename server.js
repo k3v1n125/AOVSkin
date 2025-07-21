@@ -1,8 +1,8 @@
 const express = require("express");
-const fs = require("fs");
+const fs = require("fs-extra");
 const path = require("path");
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const DATA_FILE = path.join(__dirname, "data.json");
 
@@ -54,5 +54,5 @@ app.put("/edit/:id", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  console.log(`Server running at ${PORT}`);
 });

@@ -713,5 +713,285 @@
     "hero": "莫拉",
     "skin": "碎月劍心",
     "owned": true
+  },
+  {
+    "hero": "夏洛特",
+    "skin": "浮生妄",
+    "owned": true
+  },
+  {
+    "hero": "史蘭茲",
+    "skin": "狡詐修理工",
+    "owned": true
+  },
+  {
+    "hero": "史蘭茲",
+    "skin": "靈月幻兔",
+    "owned": true
+  },
+  {
+    "hero": "史蘭茲",
+    "skin": "奇境漫遊",
+    "owned": true
+  },
+  {
+    "hero": "史蘭茲",
+    "skin": "甜夢時光",
+    "owned": true
+  },
+  {
+    "hero": "史蘭茲",
+    "skin": "美味降臨",
+    "owned": true
+  },
+  {
+    "hero": "史蘭茲",
+    "skin": "須彌奇遇",
+    "owned": true
+  },
+  {
+    "hero": "史蘭茲",
+    "skin": "窩兔露斯",
+    "owned": true
+  },
+  {
+    "hero": "史蘭茲",
+    "skin": "花信嵐風",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "烏鴉嘴",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "輝裝聖徒",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "銀瞳伯爵",
+    "owned": false
+  },
+  {
+    "hero": "凡恩",
+    "skin": "英雄之徽",
+    "owned": false
+  },
+  {
+    "hero": "凡恩",
+    "skin": "射門機器",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "戰神之賜",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "噴射狂鯊",
+    "owned": false
+  },
+  {
+    "hero": "凡恩",
+    "skin": "冰霜公爵",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "財源滾滾：財神",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "火神迦具土",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "蘭波特軍工廠",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "神器・狴犴令",
+    "owned": true
+  },
+  {
+    "hero": "凡恩",
+    "skin": "次元突破",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "星艦巡航",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "星海之霸",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "中場發動機",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "雪無痕",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "風紀委員",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "星海之霸・永曜",
+    "owned": false
+  },
+  {
+    "hero": "圖倫",
+    "skin": "鶴羽星尊",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "薔薇之宴",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "ST.L-79-紫電",
+    "owned": false
+  },
+  {
+    "hero": "圖倫",
+    "skin": "爆炎龍",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "青輝之雷",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "明焰開明",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "時雨天司",
+    "owned": true
+  },
+  {
+    "hero": "圖倫",
+    "skin": "聖域：雷之魔導士",
+    "owned": false
+  },
+  {
+    "hero": "圖倫",
+    "skin": "五條悟",
+    "owned": true
+  },
+  {
+    "hero": "瑪迦",
+    "skin": "窺海",
+    "owned": false
+  },
+  {
+    "hero": "瑪迦",
+    "skin": "靈蛇祭司",
+    "owned": true
+  },
+  {
+    "hero": "瑪迦",
+    "skin": "聖炎水晶",
+    "owned": true
+  },
+  {
+    "hero": "瑪迦",
+    "skin": "校園詭影",
+    "owned": false
+  },
+  {
+    "hero": "瑪迦",
+    "skin": "危情狂想",
+    "owned": false
+  },
+  {
+    "hero": "瑪迦",
+    "skin": "浮光幕影",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "魅影奇兵",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "性感遊戲",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "血煞月牙環",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "舞力四射",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "飛翔夢之隊",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "月落星沉",
+    "owned": false
+  },
+  {
+    "hero": "葉娜",
+    "skin": "醫戰情緣",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "駭浪航行",
+    "owned":false
+  },
+  {
+    "hero": "葉娜",
+    "skin": "WaVe・赤焰",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "聖誕之禮",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "九霄神輝",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "蛇乎奇境・逐鹿",
+    "owned": true
+  },
+  {
+    "hero": "葉娜",
+    "skin": "天幕墜落",
+    "owned": true
   }
 ]

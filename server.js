@@ -34,7 +34,6 @@ app.get("/data", (req, res) => {
   res.json(data);
 });
 
-//Test
 // PUT: Edit an existing entry by ID
 app.put("/edit/:id", (req, res) => {
   const id = parseInt(req.params.id);

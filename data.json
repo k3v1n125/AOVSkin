@@ -902,7 +902,7 @@
   {
     "hero": "瑪迦",
     "skin": "窺海",
-    "owned": false
+    "owned": true
   },
   {
     "hero": "瑪迦",
@@ -967,7 +967,7 @@
   {
     "hero": "葉娜",
     "skin": "駭浪航行",
-    "owned":false
+    "owned": false
   },
   {
     "hero": "葉娜",
